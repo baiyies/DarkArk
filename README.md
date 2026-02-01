@@ -1,30 +1,37 @@
 # DarkArk
-DarkArk是一款Windows Anti-Rootkit(ARK)工具，已在win10 win11上测试成功。目前项目处于**早期开发阶段**。
+[中文说明][url-docen]
 
-[下载DarkArk](https://github.com/baiyies/DarkArk/releases)
+DarkArk is a Windows Anti-Rootkit (ARK) tool, tested successfully on Windows 10 and Windows 11. Currently, the project is in the **early development stage**.
 
-# 免责声明
-本项目只限个人学习研究使用，请勿用于任何商业用途。在使用时必须遵守当地法律法规，不得用于恶意用途。同时在使用DarkArk时对于可能造成的任何蓝屏或数据损失等作者不承担任何责任。
-除非您已充分阅读、完全理解并接受本协议所有条款，否则，请您不要安装并使用本工具。您的使用行为或者您以其他任何明示或者默示方式表示接受本协议的，即视为您已阅读并同意本协议的约束。
+[Download DarkArk](https://github.com/baiyies/DarkArk/releases)
 
-# 功能列表
-部分已实现功能如下
-- 进程枚举 驱动枚举 派遣函数查询 系统线程 系统回调 MiniFilter SSDT Shadow SSDT 驱动痕迹 系统监控...
+# Disclaimer
+This project is intended strictly for personal learning and research purposes; please do not use it for any commercial activities. You must comply with local laws and regulations when using it, and it must not be used for malicious purposes. Meanwhile, the author assumes no responsibility for any blue screens, data loss, or other potential issues caused by using DarkArk.
+Unless you have fully read, completely understood, and accepted all terms of this agreement, please do not install or use this tool. Your use of the tool, or your acceptance of this agreement in any other express or implied manner, shall be deemed as you having read and agreed to be bound by this agreement.
 
-# 运行截图
-![](images/1.png)
-![](images/2.png)
-![](images/3.png)
-![](images/4.png)
-![](images/5.png)
-![](images/6.png)
-![](images/7.png)
-![](images/8.png)
-![](images/9.png)
-![](images/10.png)
-![](images/11.png)
-![](images/12.png)
+# Features
+Some implemented features are as follows:
+- Process Enumeration, Driver Enumeration, Dispatch Function Query, System Threads, System Callbacks, MiniFilter, SSDT, Shadow SSDT, Driver Traces, System Monitoring...
 
-# 更新日志
+# Screenshots
+![](images/1_en.png)
+![](images/2_en.png)
+![](images/3_en.png)
+![](images/4_en.png)
+![](images/5_en.png)
+![](images/6_en.png)
+![](images/7_en.png)
+![](images/8_en.png)
+![](images/9_en.png)
+![](images/10_en.png)
+![](images/11_en.png)
+![](images/12_en.png)
+
+# Update Log
 v0.1
-初始化
+Initial release
+
+v0.2
+Added English translation, Optimized some details
+
+[url-docen]: README_CN.md
