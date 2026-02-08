@@ -34,4 +34,10 @@ Initial release
 v0.2
 Added English translation, Optimized some details
 
+v0.3
+Added Window Finder
+Added Anti-screenshot / Anti-anti-screenshot
+Added Handle Elevate
+Added ETW-TI Monitoring
+
 [url-docen]: README_CN.md
