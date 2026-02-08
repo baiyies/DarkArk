@@ -9,7 +9,7 @@ DarkArk是一款Windows Anti-Rootkit(ARK)工具，已在win10 win11上测试成�
 
 # 功能列表
 部分已实现功能如下
-- 进程枚举 驱动枚举 派遣函数查询 系统线程 系统回调 MiniFilter SSDT Shadow SSDT 驱动痕迹 系统监控...
+- 进程枚举 驱动枚举 派遣函数查询 系统线程 系统回调 MiniFilter SSDT Shadow SSDT 驱动痕迹 系统监控 ETW-TI 反截图/反反截图 句柄提权...
 
 # 运行截图
 ![](images/1.png)
@@ -32,3 +32,9 @@ v0.1
 v0.2
 增加英文翻译
 优化一些细节
+
+v0.3
+新增窗口查找
+新增反截图/反反截图
+新增句柄提取
+新增ETW-TI监控
