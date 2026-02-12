@@ -40,4 +40,10 @@ v0.3
 - Added Handle Elevate
 - Added ETW-TI Monitoring
 
+v0.4
+- Added driver trace cleaning
+- Added Enable/Disable/Remove callbacks
+- Added Disassembly View
+- Fixed known bugs
+
 [url-docen]: README_CN.md
