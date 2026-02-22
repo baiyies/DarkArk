@@ -11,7 +11,7 @@ Unless you have fully read, completely understood, and accepted all terms of thi
 
 # Features
 Some implemented features are as follows:
-- Process Enumeration, Driver Enumeration, Dispatch Function Query, System Threads, System Callbacks, MiniFilter, SSDT, Shadow SSDT, Driver Traces, System Monitoring, Anti-screenshot / Anti-anti-screenshot, Handle Elevate...
+- Process Enumeration, Driver Enumeration, Dispatch Function Query, System Threads, System Callbacks, MiniFilter, SSDT, Shadow SSDT, Driver Traces, System Monitoring, ETW-TI, Anti-screenshot / Anti-anti-screenshot, Handle Elevate, DLL injection, Shellcode injection, EXE/DLL/SYS Block, Directory Protection, Manual Map Driver...
 
 # Screenshots
 ![](images/1_en.png)
@@ -45,5 +45,17 @@ v0.4
 - Added Enable/Disable/Remove callbacks
 - Added Disassembly View
 - Fixed known bugs
+
+v1.0
+- Major update, updated a large number of basic features, beautified the interface
+- Added registry browsing
+- Added suspend, resume, and terminate system threads
+- Added process DLL injection, Shellcode injection, and DLL unloading
+- Added interception of specified EXE/DLL/SYS loading
+- Added directory protection
+- Added disabling of vulnerable drivers
+- Added driver mapping
+- Added KDMapper-dumper
+- Optimized MiniFilter information display
 
 [url-docen]: README_CN.md
