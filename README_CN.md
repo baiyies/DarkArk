@@ -60,3 +60,15 @@ v1.0
 - 新增映射驱动
 - 新增KDMapper-dumper
 - MiniFiter信息显示优化
+
+v1.1
+- 修复32位进程模块遍历问题
+- 优化文件管理性能
+- 优化Inline Hook/IAT Hook检测逻辑
+- 优化ETW-TI界面交互
+- 新增文件解锁
+- 新增启动项管理
+- 新增DSE Patch
+- 新增Notify回调全局禁用
+- 新增WFP Callout/WFP Filter/Hosts
+- 新增ETW Hook检测
