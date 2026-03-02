@@ -58,4 +58,16 @@ v1.0
 - Added KDMapper-dumper
 - Optimized MiniFilter information display
 
+v1.1
+- Fixed 32-bit process module enumeration issue
+- Optimized file management performance
+- Optimized Inline Hook/IAT Hook detection logic
+- Optimized ETW-TI UI interaction
+- Added file unlocking
+- Added startup item management
+- Added DSE Patch
+- Added global disable for Notify callbacks
+- Added WFP Callout/WFP Filter/Hosts
+- Added ETW Hook detection
+
 [url-docen]: README_CN.md
