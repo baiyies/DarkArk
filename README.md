@@ -12,6 +12,7 @@ Unless you have fully read, completely understood, and accepted all terms of thi
 # Features
 Some implemented features are as follows:
 - Process Enumeration, Driver Enumeration, Dispatch Function Query, System Threads, System Callbacks, MiniFilter, SSDT, Shadow SSDT, Driver Traces, System Monitoring, ETW-TI, Anti-screenshot / Anti-anti-screenshot, Handle Elevate, DLL injection, Shellcode injection, EXE/DLL/SYS Block, Directory Protection, Manual Map Driver...
+- Now supports automated tool calling via MCP
 
 # Screenshots
 ![](images/1_en.png)
@@ -27,47 +28,52 @@ Some implemented features are as follows:
 ![](images/11_en.png)
 ![](images/12_en.png)
 
-# Update Log
-v0.1
-- Initial release
-
-v0.2
-- Added English translation, Optimized some details
-
-v0.3
-- Added Window Finder
-- Added Anti-screenshot / Anti-anti-screenshot
-- Added Handle Elevate
-- Added ETW-TI Monitoring
-
-v0.4
-- Added driver trace cleaning
-- Added Enable/Disable/Remove callbacks
-- Added Disassembly View
-- Fixed known bugs
-
-v1.0
-- Major update, updated a large number of basic features, beautified the interface
-- Added registry browsing
-- Added suspend, resume, and terminate system threads
-- Added process DLL injection, Shellcode injection, and DLL unloading
-- Added interception of specified EXE/DLL/SYS loading
-- Added directory protection
-- Added disabling of vulnerable drivers
-- Added driver mapping
-- Added KDMapper-dumper
-- Optimized MiniFilter information display
+# Changelog
+v1.2
+- Added automated AI MCP tool calling
+- Added support for HVCI
 
 v1.1
-- Fixed 32-bit process module enumeration issue
-- Optimized file management performance
-- Optimized Inline Hook/IAT Hook detection logic
-- Optimized ETW-TI UI interaction
+- Fixed 32-bit process module enumeration issues
+- Optimized file manager performance
+- Refined Inline Hook and IAT Hook detection logic
+- Improved ETW-TI UI interactions
 - Added file unlocking
 - Added startup item management
 - Added DSE Patch
-- Added global disable for Notify callbacks
-- Added WFP Callout/WFP Filter/Hosts
+- Added global disabling for Notify callbacks
+- Added WFP Callout / WFP Filter / Hosts management
 - Added ETW Hook detection
+
+v1.0
+- Major update: overhauled core features and refreshed the UI
+- Added Registry browser
+- Added system thread suspension, resumption, and termination
+- Added process operations: DLL injection, Shellcode injection, and DLL unloading
+- Added load interception for specified EXE/DLL/SYS files
+- Added directory protection
+- Added vulnerable driver disabling
+- Added driver manual mapping
+- Added KDMapper-dumper
+- Optimized MiniFilter information display
+
+v0.4
+- Added driver trace cleaning
+- Added enable, disable, and remove options for callbacks
+- Added disassembly viewer
+- Fixed known bugs
+
+v0.3
+- Added window finder
+- Added anti-screenshot and anti-anti-screenshot
+- Added handle extraction
+- Added ETW-TI monitoring
+
+v0.2
+- Added English translation
+- Minor optimizations and polish
+
+v0.1
+- Initial release
 
 [url-docen]: README_CN.md
